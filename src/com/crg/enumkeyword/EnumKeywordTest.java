@@ -8,7 +8,7 @@ package com.crg.enumkeyword;
 public class EnumKeywordTest {
 	
 	/**
-	 *  声明一组常量集 fruits
+	 *  声明一组常量集 fruits enum 以前这样声明
 	 */
 	public final static int APPLE = 0;
 	public final static int BANANA = 1;
