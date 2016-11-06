@@ -43,7 +43,7 @@ public class EnumKeyword {
 			break;
 		case TOMATO:
 			System.out.println("I want to eat tomato");
-			break;
+			return;
 		default:
 			System.out.println("there is not any fruit");
 			break;
@@ -77,8 +77,8 @@ public class EnumKeyword {
 		}
 		//==================================================================
 		//==================================================================
-//		EnumKeyword enumKeyword = new EnumKeyword(Fruits.BANANA);
-//		enumKeyword.choiceOneFruit();
+		EnumKeyword enumKeyword = new EnumKeyword(Fruits.BANANA);
+		enumKeyword.choiceOneFruit();
 		}
 //		for (Fruits fruit : Fruits.values()) {
 //			System.out.println(fruit + ".ordinal " + fruit.ordinal());
